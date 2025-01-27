@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(29, 28, 28);
+    color: chartreuse;
+    padding: 30px; 
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+h1{
+    text-shadow: 5px 5px 20px chartreuse;
+    text-align: center;
+}
+#formulario{
+    background-color: rgb(230, 230, 230);
+    border-radius: 20px;
+    color: black;
+    margin: 20px;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    box-shadow: 10px 10px 15px chartreuse;
+    width: 600px;
+    
+}
+#Pix{
+    border: 3px solid;
+    border-color: rgb(29, 28, 28);
+    border-radius: 10px;
+    padding: 10px;
+    
+
+}
+#formulario div{
+    margin: 20px;
+}
+#final label{
+    float: right;
+    padding-bottom: 10px;
+}
+#final {
+
+}
