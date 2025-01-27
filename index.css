@@ -1,0 +1,225 @@
+body{
+    margin: 0%;
+    background-color: #B0C4DE;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+.cabecalho{
+
+  padding-bottom: 35px;
+  padding-top: 20px;
+  
+  padding-right: 10px;
+  
+  background-color: #4682B4; 
+  color: #B0C4DE;
+  text-align: right;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+.cabecalho img{
+    
+    float: left;
+    width: 250;
+    
+    
+}
+#carrosel {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+#carrosel div img{
+
+display: flex;
+width: 1510px;
+height: 500px;
+border-radius: 0px 0px 30px 30px;
+
+}
+#menu{
+    text-align: center;
+    color: #4682B4;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    
+
+}
+#menu ul{
+    list-style: none;
+    background-color: #39688f;
+    padding: 20px;
+    border-radius: 50px;
+    
+}
+#menu ul li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: #B0C4DE;
+    font-weight: bolder;
+}
+#tituloMenu{
+    text-align: center;
+    color: #4682B4;
+
+}
+#PServicos{
+    justify-content: center;
+    display: flex;
+}
+
+#PServicos div{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+    background-color: #4682B4;
+    border-radius: 20px;
+    margin: 30px;
+    color: #B0C4DE;
+    height: 420px ;
+    width: 300px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    
+}
+#PServicos div:hover{
+    background-color: #33039c;
+    color: aliceblue;
+}
+#servicos{
+    text-align: center;
+color: #4682B4;
+margin-bottom: 20px;
+}
+
+
+
+#comentarioArea div {
+
+color: #4682B4;
+margin: 40px;
+display: flex;
+flex-direction: column;
+width: 500px;
+height: 450px;
+font-size: 20px;
+
+}
+#comentarioArea div img{
+    
+    width: 500px;
+    border-radius: 50px 10px 50px 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+#comentario{
+    text-align: center;
+color: #4682B4;
+
+}
+#comentarioArea {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    background-color: #4682B4;
+    margin-bottom: 0px;
+    padding: 20px;
+    text-align: center;
+    color: #B0C4DE;
+}
+
+footer div {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 10px; 
+    margin-bottom: 20px; 
+}
+
+footer div img {
+    width: 30px; 
+}
+
+footer div p, 
+footer div a {
+    margin: 0; 
+    color: #B0C4DE;
+    text-decoration: none;
+    font-size: 16px;
+}
+#tituloDados{
+    text-align: center;
+    color: #4682B4;
+}
+#form{
+    display: flex;
+    justify-content: center;
+
+}
+#formulario{
+    display: flex;
+    justify-content: center;
+    background-color: #4682B4;
+    border-radius: 20px;
+    width: 450px;
+    height: 740px;
+    text-align: left;
+    padding: 10px;
+    color: #B0C4DE;
+    margin: 40px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+#formulario form{
+    padding: 10px;
+    font-weight: bolder;
+    
+}
+#formulario form input{
+
+    background-color:#B0C4DE;
+   width: 300px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    color: #39688f;
+}
+#PaginaGaleria h3{
+    color: #39688f;
+    text-shadow: #33039c;
+    font-size: 25px;
+}
+#tituloGaleria{
+    color: #39688f;
+    text-shadow: #33039c;
+    margin: 50px;
+    text-align: center;
+}
+#PaginaGaleria {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding: 20px;
+    align-items: center;
+}
+#PaginaGaleria div{
+    
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    padding: 30px;
+    gap: 20px;
+    background-color: #4682B4;
+    border-radius: 30px;
+    width: 1000px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
